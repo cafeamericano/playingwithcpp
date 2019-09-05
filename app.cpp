@@ -1,9 +1,12 @@
-#include <string>
 #include <iostream>
+using namespace std;
 
-int main()
-{
-  
-  std::cout << "Hello World!\n";
-
+int main() {
+    string nameVar;
+    cout << "What's your name?: ";
+    cin >> nameVar;
+    
+    cout << "You said: " << nameVar;
+    cout << "\n";
+    return 0;
 }
