@@ -3,19 +3,27 @@
 #include <cmath>
 using namespace std;
 
-//FUNCTIONS
+// FUNCTIONS //////////////////////////////////////////////////////////
+
 void printLineBreak(int lineCount) {
     for (int i = 0; i < lineCount; i++){
         cout << "\n";
     }
 }
 
-//MAIN
+void printHeader() {
+    cout << "######################################### \n";
+    cout << "### WELCOME TO THE C++ BMI CALCULATOR ### \n";
+    cout << "######################################### \n";
+}
+
+// MAIN ///////////////////////////////////////////////////////////////
 int main() {
     
-    //Add in some spacing
+    //Add in some spacing, then print the header
     printLineBreak(1);
-
+    printHeader();
+    
     //Variable initialization
     float pounds, inches;
     
